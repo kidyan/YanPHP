@@ -1,5 +1,4 @@
 <?php
-include '../func.php';
 
 function my_scandir($dir)
 {
