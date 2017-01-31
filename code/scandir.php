@@ -10,7 +10,7 @@ function my_scandir($dir)
             if ($file != '.' && $file != '..') is_dir($file) ? $rtn[$file] = my_scandir($file) : $rtn[] = $file;
         }
     }
-	return $rtn;
+    return $rtn;
 }
 
 $a = my_scandir(__DIR__);
